@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  margin: 10px;
+}
+.user-menu {
+  display: block;
+}
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+}
+.footer {
+  text-align: center;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

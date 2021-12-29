@@ -1,0 +1,454 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sebastian",
+      "lastname": "yabiku"
+    },
+    {
+      "id": 2,
+      "name": "melisa",
+      "lastname": "yabiku"
+    },
+    {
+      "id": 3,
+      "name": "jose",
+      "lastname": "yabiku"
+    },
+    {
+      "id": 4,
+      "name": "cristina",
+      "lastname": "yabiku"
+    }
+  ],
+  "usersRegister": [
+    {
+      "id": 1,
+      "user": "admin",
+      "password": "123456",
+      "profile": {
+        "name": "Sebastian",
+        "edad": 32,
+        "sex": "m"
+      }
+    },
+    {
+      "id": 2,
+      "user": "admin2",
+      "password": "123456",
+      "profile": {
+        "name": "Jose",
+        "edad": 32,
+        "sex": "m"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "label": 1,
+      "value": "Super Admin"
+    },
+    {
+      "label": 2,
+      "value": "Admin"
+    },
+    {
+      "label": 3,
+      "value": "Other"
+    }
+  ],
+  "profiles2": [
+    {
+      "id": 1,
+      "profile": "Super Admin",
+      "status": true,
+      "visibility": false
+    },
+    {
+      "id": 2,
+      "profile": "Admin",
+      "status": true,
+      "visibility": true
+    },
+    {
+      "id": 3,
+      "profile": "Other",
+      "status": true,
+      "visibility": false
+    }
+  ],
+  "systemUsers": [
+    {
+      "id": 1,
+      "username": "sa",
+      "name": null,
+      "lastName": null,
+      "password": "sa",
+      "profile": "Super Admin",
+      "email": "",
+      "cellPhone": "",
+      "identificationDocument": null,
+      "documentNumber": null,
+      "status": "Habilitado"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "name": null,
+      "lastName": null,
+      "password": "admin",
+      "profile": "Admin",
+      "email": "",
+      "cellPhone": "",
+      "identificationDocument": null,
+      "documentNumber": null,
+      "status": "Habilitado"
+    },
+    {
+      "id": 3,
+      "username": "agandarillas",
+      "name": "Alberto",
+      "lastName": "Gandarillas",
+      "password": "123",
+      "profile": "Other",
+      "email": "acgl2015@gmail.com",
+      "cellPhone": "99999999",
+      "identificationDocument": "DNI",
+      "documentNumber": "12345678",
+      "status": "Habilitado"
+    },
+    {
+      "id": 4,
+      "username": "mvasquez",
+      "name": "Miguel",
+      "lastName": "Vasquez",
+      "password": "123",
+      "profile": "Other",
+      "email": "miguel@gmail.com",
+      "cellPhone": "99999999",
+      "identificationDocument": "DNI",
+      "documentNumber": "12345677",
+      "status": "Habilitado"
+    },
+    {
+      "id": 5,
+      "username": "bleon",
+      "name": "Bruno",
+      "lastName": "Leon",
+      "password": "123",
+      "profile": "Other",
+      "email": "bruno@gmail.com",
+      "cellPhone": "99999999",
+      "identificationDocument": "DNI",
+      "documentNumber": "12345676",
+      "status": "Deshabilitado"
+    }
+  ],
+  "customers": [
+    {
+      "id": 2,
+      "name": "Carolina",
+      "lastName": "Canelo",
+      "phone": "999235443",
+      "email": "carolina@att.com",
+      "document": "23875429"
+    },
+    {
+      "id": 3,
+      "name": "Henry",
+      "lastName": "Puerta",
+      "phone": "999237755",
+      "email": "henry@att.com",
+      "document": "20333476"
+    },
+    {
+      "id": 4,
+      "name": "Brunella",
+      "lastName": "Canelo",
+      "phone": "993245365",
+      "email": "brune@att.com",
+      "document": "25431172"
+    },
+    {
+      "id": 5,
+      "name": "Victor Miguel",
+      "lastName": "Lopez",
+      "phone": "999342668",
+      "email": "acgl2015@gmail.com",
+      "document": "4234234234"
+    },
+    {
+      "name": "Bruno",
+      "lastName": "Diaz",
+      "phone": "999342668",
+      "email": "acgl2015@gmail.com",
+      "document": "323234",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Valeria",
+      "lastName": "Lopez",
+      "phone": "999342668",
+      "email": "acgl2015@gmail.com",
+      "document": "4234234234"
+    }
+  ],
+  "locales": [
+    {
+      "id": 1,
+      "descripcion": "Local Miraflores",
+      "direccion": "Av. LArco 123",
+      "telefono": "32556278"
+    },
+    {
+      "id": 2,
+      "descripcion": "Local Surco",
+      "direccion": "Av. Benavides 233",
+      "telefono": "32556216"
+    },
+    {
+      "id": 3,
+      "descripcion": "Local San Borja",
+      "direccion": "Av. Aviacion 543",
+      "telefono": "32556216"
+    },
+    {
+      "id": 4,
+      "descripcion": "Local San Isidro",
+      "direccion": "Av. Javier Prado Este 2134",
+      "telefono": "99999999"
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": 1,
+      "marca": "KIA",
+      "modelo": "SPORTAGE",
+      "fabricacion": "2015",
+      "kms": "60000",
+      "ultimavisita": "2027-12-10",
+      "cliente": 2
+    },
+    {
+      "id": 2,
+      "marca": "TOYOTA",
+      "modelo": "YARIS",
+      "fabricacion": "2016",
+      "kms": "95000",
+      "ultimavisita": "2020-08-15",
+      "cliente": 3
+    },
+    {
+      "id": 3,
+      "marca": "MITSUBISHI",
+      "modelo": "L200",
+      "fabricacion": "2018",
+      "kms": "75000",
+      "ultimavisita": "2021-06-07",
+      "cliente": 3
+    },
+    {
+      "marca": "ford",
+      "modelo": "ranger",
+      "fabricacion": "2016",
+      "kms": "5000",
+      "ultimavisita": "2021-09-29",
+      "cliente": "yabiku",
+      "id": 4
+    }
+  ],
+  "Repuestos": [
+    {
+      "id": 1,
+      "descripcion": "Batería",
+      "stock": 10,
+      "precio": 439
+    },
+    {
+      "id": 2,
+      "descripcion": "Bujía",
+      "stock": 30,
+      "precio": 50
+    },
+    {
+      "id": 3,
+      "descripcion": "Limpia Parabrisa",
+      "stock": 15,
+      "precio": 70
+    }
+  ],
+  "cotizaciones": [
+    {
+      "id": 1,
+      "fecha": "26/09/2021",
+      "cliente": {
+        "id": 1,
+        "descripcion": "Gabriel Rojas"
+      },
+      "vehiculo": { 
+        "id": 1, 
+        "descripcion": "Chevrolet Cruze 2021" 
+      },
+      "servicio": { 
+        "id": 1, 
+        "descripcion": "Servicio Planchado  Pintura" 
+      },      
+      "totalRpto":20,
+      "totalMtnmto":460,
+      "subTotal":480,
+      "igv":86,
+      "total":566
+    }
+  ],
+  "detalle-cotizacion": [
+    {
+      "id":1,
+      "cotizacionId" : 1,
+      "actividad":"Cambio",
+      "descripcion":"Logo tapa maletera",
+      "cantidad":3,
+      "precio":15,
+      "total":45
+    },
+    {
+      "id":2,
+      "cotizacionId" : 1,      
+      "actividad":"Traccionar",
+      "descripcion":"Traccionamiento Posterior",
+      "cantidad":7,
+      "precio":15,
+      "total":105
+    },
+    {
+      "id":3,
+      "cotizacionId" : 1,      
+      "actividad":"Planchado",
+      "descripcion":"Panel Posterior",
+      "cantidad":2,
+      "precio":15,
+      "total":30
+    }        
+  ],
+  "servicios": [
+    {
+      "id": 1,
+      "descripcion": "Mantenimiento",
+      "precio": "300 pen"
+    },
+    {
+      "id": 2,
+      "descripcion": "Pintura",
+      "precio": "1500 PEN"
+    },
+    {
+      "id": 3,
+      "descripcion": "Planchado",
+      "precio": "800 PEN"
+    },
+    {
+      "id": 4,
+      "descripcion": "Sistema de frenos",
+      "precio": "300 PEN"
+    },
+    {
+      "id": 5,
+      "descripcion": "Electricidad y electronica",
+      "precio": "450 PEN"
+    },
+    {
+      "id": 6,
+      "descripcion": "Suspension y direccion",
+      "precio": "180 PEN"
+    }
+  ],
+  "Recepcion": [
+    {
+      "id": 1,
+      "vehiculo": "ABF-624",
+      "cliente": "Miguel",
+      "fecha": "2021-09-20",
+      "seguro": "Rimac",
+      "vinopor": "Mantenimiento",
+      "recepcionado": "Pepito"
+    },
+    {
+      "id": 2,
+      "vehiculo": "XYZ-123",
+      "cliente": "Alberto",
+      "fecha": "2021-04-25",
+      "seguro": "La Positiva",
+      "vinopor": "Reclamo",
+      "recepcionado": "Juanito"
+    },
+    {
+      "vehiculo": "QWE-123",
+      "cliente": "EL MISMO",
+      "fecha": "2021-09-25",
+      "seguro": "Pacifico",
+      "vinopor": "Siniestro o Choque",
+      "recepcionado": "juan",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "vehiculo": "bnh-489",
+      "cliente": "Eduardo",
+      "fecha": "2021-09-28",
+      "seguro": "La Positiva",
+      "vinopor": "Planchado y Pintura",
+      "recepcionado": "Bruno"
+    }
+  ],
+  
+"citas": [
+  {
+    "id": 1,
+    "idCustomer": "12345678",
+    "name": "Juan",
+    "lastName": "Perez",
+    "phone": "912345678",
+    "email": "jperez@gmail.com",
+    "plate": "ABC001",
+    "mileage": "150000",
+    "brand": "nissan",
+    "Local": "Local Miraflores",
+    "date": "01-10-2021",
+    "hour": "09:00",
+    "reason": "Mantenimiento correctivo",
+    "state": "nuevo"
+  },
+  {
+    "id": 2,
+    "idCustomer": "98765432",
+    "name": "Jose",
+    "lastName": "Quispe",
+    "phone": "987463258",
+    "email": "jquispe@gmail.com",
+    "plate": "AHF587",
+    "mileage": "100000",
+    "brand": "hyundai",
+    "Local": "Local San borja",
+    "date": "03-10-2021",
+    "hour": "12:00",
+    "reason": "Mantenimiento preventivo",
+    "state": "nuevo"
+  },
+  {
+    "id": 3,
+    "idCustomer": "58796524",
+    "name": "Carla",
+    "lastName": "Caceres",
+    "phone": "954732158",
+    "email": "ccaceres@gmail.com",
+    "plate": "ZDE789",
+    "mileage": "200000",
+    "brand": "toyota",
+    "Local": "Local Surco",
+    "date": "03-10-2021",
+    "hour": "16:00",
+    "reason": "Mantenimiento correctivo",
+    "state": "nuevo"
+  }
+]
+}

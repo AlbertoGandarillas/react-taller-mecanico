@@ -1,0 +1,18 @@
+.seguimiento {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+margin-top:20px;
+}
+.carousel {
+    width: 500px;
+}
+.img-carousel {
+    width: 100%;
+}
+
+.ant-carousel .slick-dots li button {
+    background: #000 !important;
+}

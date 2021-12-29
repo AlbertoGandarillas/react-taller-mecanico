@@ -1,0 +1,20 @@
+.auth {
+    display: flex;
+    width: 80%;
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    &__login {
+        width: 50%;
+    }
+    &__signup {
+        width: 50%;
+    }
+}
+.dashboard {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
