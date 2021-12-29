@@ -22,13 +22,14 @@ export function ViewServicios() {
   ]);
 
   /* Insertar cliente en JSON */
+  const urlBase="https://grupob-api1.herokuapp.com/"
   const addServicio = async (servicio) => {
     let method = servicio.id ? "UPDATE" : "POST";
     console.log(method);
     console.log(servicio.id);
     try {
       if (method == "POST") {
-        await fetch("http://localhost:3000/servicios", {
+        await fetch(urlBase+"service", {
           method: "POST",
           body: JSON.stringify(servicio),
           headers: {
@@ -36,7 +37,8 @@ export function ViewServicios() {
           },
         });
       } else {
-        await fetch(`http://localhost:3000/servicios/${servicio.id}`, {
+        //await fetch(`http://localhost:3000/servicios/${servicio.id}`, {
+          await fetch(`${urlBase}service/${servicio.id}`, {
           method: "PUT",
           body: JSON.stringify(servicio),
           headers: {
@@ -82,7 +84,7 @@ export function ViewServicios() {
   /* Obtener clientes de JSON */
   const getServicios = async () => {
     try {
-      const response = await fetch("http://localhost:3000/servicios");
+      const response = await fetch(`${urlBase}services`);
       return response.json();
     } catch (err) {
       alert("no se pudo obtener los datos, intenta nuevamente");
@@ -93,7 +95,8 @@ export function ViewServicios() {
   const deleteServicio = async (servicio) => {
     try {
       console.log(servicio);
-      await fetch(`http://localhost:3000/servicios/${servicio.id}`, {
+      await fetch(`${urlBase}service/${servicio.id}`, {
+      // await fetch(`http://localhost:3000/servicios/${servicio.id}`, {
         method: "DELETE",
       });
     } catch (err) {
